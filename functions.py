@@ -49,7 +49,7 @@ def VH_check(frame :list[list[int]],  key :int, rang, cur):
         
     countr = 0
     countc = 0
-    for j in range(rang):
+    for j in range(3):
         if frame[cur][j] == key:
             countr = countr+1
         if frame[j][cur] == key:
@@ -116,3 +116,4 @@ def random(frame :list[list[int]]):
     #return False if there is a draw
     else:
         return [0,0,False]
+
